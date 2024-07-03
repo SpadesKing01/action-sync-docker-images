@@ -1,5 +1,5 @@
 ```bash
-name: Sync Image to Aliyun  Example
+name: Sync Image to Aliyun
 
 on:
   push:
