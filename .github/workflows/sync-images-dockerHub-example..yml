@@ -27,5 +27,5 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://asia.gcr.io/k8s-artifacts-prod/etcd:3.4.13-0 docker://registry.cn-guangzhou.aliyuncs.com/zk_google_container/etcd:3.4.13-0
+         skopeo copy docker://asia.gcr.io/k8s-artifacts-prod/coredns:v1.7.0 docker://registry.cn-guangzhou.aliyuncs.com/zk_google_container/coredns:v1.7.0
     # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
